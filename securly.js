@@ -1,4 +1,6 @@
 // securly.js
+window.addEventListener("keyup", event => {
+  if (event.ctrlKey && event.which === 192) {
 (function() {
     // Open a blank window
     var t = window.open("", "_blank", "width=500,height=300");
